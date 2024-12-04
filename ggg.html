@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <link rel="stylesheet" href="ggg.css">
+    <style>
+        .block{
+    width: 300px;
+    height: 300px;
+    box-shadow: 15px 10px 8px 5px rgba(60, 197, 10, 0.75);
+    background: linear-gradient(to left, rgb(44, 11, 176), rgb(10, 230, 83))
+}
+
+.conteiner{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 15px 10px 8px 5px rgba(61, 1, 70, 0.75);
+    background: linear-gradient(to right, rgb(223, 5, 143), rgb(186, 235, 5))
+}
+/* на этих двух контейнерах я добавил тени и плавный переход к блокам  */
+
+
+.text {
+    text-shadow: 10px 5px 1px rgba(161, 9, 9, 0.5);
+}
+h1{
+    text-shadow: 8px 15px 5px rgba(45, 182, 7, 0.5);
+}
+/* к эти текстам я добавил тени  */
+.radial{
+    width: 500px;
+    height: 400px;
+    background: radial-gradient(circle , rgb(4, 40, 108), rgb(216, 6, 115), rgb(221, 74, 11));
+}
+    .ellipse{
+        margin-top: 50px;
+        width: 500px;
+        height: 400px;
+        background: radial-gradient(ellipse, rgb(106, 220, 7), rgb(10, 168, 231));
+    }
+    /* тут я создал два контейнера и дал им радиальны гардиант первый на кругена трех цветах, второй на эллипсе на две цвете */
+    </style>
+</head>
+<body>
+    <div class="block"></div>
+    <div class="conteiner"></div>
+   
+   <p class="text">градиенты в CSS — мощные инструменты для создания визуально привлекательных веб-страниц.</p>
+   <h1>Добавление глубины и объема: </h1>
+   
+    <div class="radial"></div>
+    <div class="ellipse"></div>
+
+    
+</body>
+</html>
